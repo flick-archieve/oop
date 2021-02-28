@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+  Form1.cpp
+  Generating Code...
+C:\Users\olehh\source\repos\OOP_lab_1\OOP_lab_1\Form1.h(199): error C4716: 'CppCLRWinformsProjekt::Form1::findDiscriminate': must return a value
+C:\Users\olehh\source\repos\OOP_lab_1\OOP_lab_1\Form1.h(195): warning C4172: returning address of local variable or temporary: roots
