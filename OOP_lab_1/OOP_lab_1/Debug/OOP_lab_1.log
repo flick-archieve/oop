@@ -1,4 +1,9 @@
-﻿  CppCLR_WinformsProjekt.cpp
-C:\Users\olehh\source\repos\OOP_lab_1\OOP_lab_1\Form1.h(198,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_1\OOP_lab_1\Form1.h(198,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Form1.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  OOP_lab_1.vcxproj -> C:\Users\olehh\source\repos\OOP_lab_1\Debug\OOP_lab_1.exe
+  OOP_lab_1.vcxproj -> C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_1\Debug\OOP_lab_1.exe

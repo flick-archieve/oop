@@ -1,3 +1,6 @@
 C:\Users\olehh\source\repos\OOP_lab_1\OOP_lab_1\Debug\OOP_lab_1.vcxprojAssemblyReference.cache
 C:\Users\olehh\source\repos\OOP_lab_1\OOP_lab_1\Debug\OOP_lab_1.Form1.resources
 C:\Users\olehh\source\repos\OOP_lab_1\OOP_lab_1\Debug\OOP_lab_1.vcxproj.GenerateResource.cache
+C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_1\OOP_lab_1\Debug\OOP_lab_1.vcxprojAssemblyReference.cache
+C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_1\OOP_lab_1\Debug\OOP_lab_1.Form1.resources
+C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_1\OOP_lab_1\Debug\OOP_lab_1.vcxproj.GenerateResource.cache
