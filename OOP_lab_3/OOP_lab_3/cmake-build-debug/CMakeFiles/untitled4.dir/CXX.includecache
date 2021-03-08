@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_3/OOP_lab_3/Dyhotomia.cpp
+Dyhotomia.h
+C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_3/OOP_lab_3/Dyhotomia.h
+cmath
+-
+iostream
+-
+
+C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_3/OOP_lab_3/Dyhotomia.h
+
+C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_3/OOP_lab_3/main.cpp
+iostream
+-
+Dyhotomia.h
+C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_3/OOP_lab_3/Dyhotomia.h
+
