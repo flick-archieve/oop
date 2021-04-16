@@ -154,6 +154,45 @@ CMakeFiles/OOP_lab_4.dir/Recruiter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab_4.dir/Recruiter.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\Recruiter.cpp -o CMakeFiles\OOP_lab_4.dir\Recruiter.cpp.s
 
+CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.obj: CMakeFiles/OOP_lab_4.dir/flags.make
+CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.obj: ../ComputerScienceStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_lab_4.dir\ComputerScienceStudent.cpp.obj -c C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\ComputerScienceStudent.cpp
+
+CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\ComputerScienceStudent.cpp > CMakeFiles\OOP_lab_4.dir\ComputerScienceStudent.cpp.i
+
+CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\ComputerScienceStudent.cpp -o CMakeFiles\OOP_lab_4.dir\ComputerScienceStudent.cpp.s
+
+CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.obj: CMakeFiles/OOP_lab_4.dir/flags.make
+CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.obj: ../HardworkingStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_lab_4.dir\HardworkingStudent.cpp.obj -c C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\HardworkingStudent.cpp
+
+CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\HardworkingStudent.cpp > CMakeFiles\OOP_lab_4.dir\HardworkingStudent.cpp.i
+
+CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\HardworkingStudent.cpp -o CMakeFiles\OOP_lab_4.dir\HardworkingStudent.cpp.s
+
+CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.obj: CMakeFiles/OOP_lab_4.dir/flags.make
+CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.obj: ../Superstudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_lab_4.dir\Superstudent.cpp.obj -c C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\Superstudent.cpp
+
+CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\Superstudent.cpp > CMakeFiles\OOP_lab_4.dir\Superstudent.cpp.i
+
+CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\Superstudent.cpp -o CMakeFiles\OOP_lab_4.dir\Superstudent.cpp.s
+
 # Object files for target OOP_lab_4
 OOP_lab_4_OBJECTS = \
 "CMakeFiles/OOP_lab_4.dir/main.cpp.obj" \
@@ -161,7 +200,10 @@ OOP_lab_4_OBJECTS = \
 "CMakeFiles/OOP_lab_4.dir/Student.cpp.obj" \
 "CMakeFiles/OOP_lab_4.dir/Employee.cpp.obj" \
 "CMakeFiles/OOP_lab_4.dir/Lecturer.cpp.obj" \
-"CMakeFiles/OOP_lab_4.dir/Recruiter.cpp.obj"
+"CMakeFiles/OOP_lab_4.dir/Recruiter.cpp.obj" \
+"CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.obj" \
+"CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.obj" \
+"CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.obj"
 
 # External object files for target OOP_lab_4
 OOP_lab_4_EXTERNAL_OBJECTS =
@@ -172,11 +214,14 @@ OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/Student.cpp.obj
 OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/Employee.cpp.obj
 OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/Lecturer.cpp.obj
 OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/Recruiter.cpp.obj
+OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.obj
+OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.obj
+OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.obj
 OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/build.make
 OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/linklibs.rsp
 OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/objects1.rsp
 OOP_lab_4.exe: CMakeFiles/OOP_lab_4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OOP_lab_4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\olehh\Desktop\University\labs\OOP\OOP_lab_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable OOP_lab_4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OOP_lab_4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

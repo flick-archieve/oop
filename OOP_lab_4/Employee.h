@@ -8,12 +8,19 @@
 
 #include "Person.h"
 
-class Employee: public Person {
+const int MIN_SALLARY = 6000;
+
+class Employee: public virtual Person {
 public:
+    int sallary = MIN_SALLARY;
     Employee();
+
+    Employee(const std::string &name, const std::string &surname, int age, int sallary);
 
     Employee(const std::string &name, const std::string &surname, int age);
     virtual void work();
+
+    virtual ~Employee();
 
 private:
     void introduce() override;

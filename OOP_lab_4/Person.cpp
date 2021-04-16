@@ -6,7 +6,7 @@
 #include <iostream>
 #include "Person.h"
 
-Person::Person(const std::string &name, const std::string &surname, int age) : name(name), surname(surname), age(age){}
+Person::Person(const std::string &name, const std::string &surname, int age) : name(name), surname(surname), age(age) {}
 
 std::string Person::getName() {
     return name;
@@ -21,12 +21,24 @@ int Person::getAge() {
 }
 
 void Person::setSurname(std::string newSurname) {
-std::cout<<"Surname was changed to "<< newSurname << " !"<<std::endl;
-surname = newSurname;
+    std::cout << "Surname was changed to " << newSurname << " !" << std::endl;
+    surname = newSurname;
 }
 
 void Person::introduce() {
-    std::cout<<"Hello, my name is "<<name<<" "<<surname<<" and I am "<<age<<" years old.";
+    std::cout << "Hello, my name is " << name << " " << surname << " and I am " << age << " years old.";
 }
 
-Person::Person():name("Oleh"),surname("Haliak"),age(18) {}
+Person::Person() : name("Oleh"), surname("Haliak"), age(18) {
+    std::cout<<"Person created"<<std::endl;
+}
+
+Person::~Person() {
+    std::cout << "Person was deleted"<<std::endl;
+
+}
+
+Person::Person(Person* person) : name(person->getName()), surname(person->getSurname()), age(person->age) {
+
+}
+
