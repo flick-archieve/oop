@@ -8,10 +8,6 @@ namespace Lab2 {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
-
-	/// <summary>
-	/// Summary for MyForm
-	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
 	public:
@@ -19,15 +15,11 @@ namespace Lab2 {
 		MyForm(void)
 		{
 			InitializeComponent();
-			//
-			//TODO: Add the constructor code here
-			//
+		
 		}
 
 	protected:
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
+
 		~MyForm()
 		{
 			if (components)
@@ -54,16 +46,11 @@ namespace Lab2 {
 	protected:
 
 	private:
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
+
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
+
 		void InitializeComponent(void)
 		{	
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
@@ -202,6 +189,7 @@ namespace Lab2 {
 			this->PerformLayout();
 
 		}
+
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (System::Windows::Forms::DialogResult::OK == openFileDialog1->ShowDialog()) {
@@ -225,6 +213,7 @@ namespace Lab2 {
 		}
 		pictureBox1->Image = imgData;
 	}
+
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
 	for (size_t i = 0; i < imgData->Width; i++)
 	{
@@ -237,6 +226,8 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	pictureBox1->Image = imgData;
 }
+
+
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
 	for (size_t i = 0; i < imgData->Width; i++)
 	{
@@ -249,6 +240,8 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	pictureBox1->Image = imgData;
 }
+
+
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
 	
 	for (size_t i = 0; i < imgData->Width; i++)
@@ -263,10 +256,14 @@ private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	pictureBox1->Image = imgData;
 }
+
+
 private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
 	imgData = gcnew Bitmap(path);
 	pictureBox1->Image = imgData;
 }
+
+
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
 	int threshold = Convert::ToInt32(textBox1->Text);
 	for (size_t i = 0; i < imgData->Width; i++)

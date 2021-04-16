@@ -36,5 +36,7 @@ double Dyhotomia::calculate(double a, double b, double eps) {
 }
 
 double Dyhotomia::getEquationResult(double x) {
+    std::cout<<3 * sin(sqrt(x)) + 0.35 * x - 3.8<<std::endl;
     return 3 * sin(sqrt(x)) + 0.35 * x - 3.8;
+
 }

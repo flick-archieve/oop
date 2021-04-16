@@ -1,3 +1,0 @@
-C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/cmake-build-debug/CMakeFiles/OOP_lab_4.dir
-C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
