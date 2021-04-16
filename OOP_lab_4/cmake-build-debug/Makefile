@@ -142,6 +142,33 @@ OOP_lab_4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/build
 .PHONY : OOP_lab_4/fast
 
+ComputerScienceStudent.obj: ComputerScienceStudent.cpp.obj
+
+.PHONY : ComputerScienceStudent.obj
+
+# target to build an object file
+ComputerScienceStudent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.obj
+.PHONY : ComputerScienceStudent.cpp.obj
+
+ComputerScienceStudent.i: ComputerScienceStudent.cpp.i
+
+.PHONY : ComputerScienceStudent.i
+
+# target to preprocess a source file
+ComputerScienceStudent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.i
+.PHONY : ComputerScienceStudent.cpp.i
+
+ComputerScienceStudent.s: ComputerScienceStudent.cpp.s
+
+.PHONY : ComputerScienceStudent.s
+
+# target to generate assembly for a file
+ComputerScienceStudent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/ComputerScienceStudent.cpp.s
+.PHONY : ComputerScienceStudent.cpp.s
+
 Employee.obj: Employee.cpp.obj
 
 .PHONY : Employee.obj
@@ -168,6 +195,33 @@ Employee.s: Employee.cpp.s
 Employee.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/Employee.cpp.s
 .PHONY : Employee.cpp.s
+
+HardworkingStudent.obj: HardworkingStudent.cpp.obj
+
+.PHONY : HardworkingStudent.obj
+
+# target to build an object file
+HardworkingStudent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.obj
+.PHONY : HardworkingStudent.cpp.obj
+
+HardworkingStudent.i: HardworkingStudent.cpp.i
+
+.PHONY : HardworkingStudent.i
+
+# target to preprocess a source file
+HardworkingStudent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.i
+.PHONY : HardworkingStudent.cpp.i
+
+HardworkingStudent.s: HardworkingStudent.cpp.s
+
+.PHONY : HardworkingStudent.s
+
+# target to generate assembly for a file
+HardworkingStudent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/HardworkingStudent.cpp.s
+.PHONY : HardworkingStudent.cpp.s
 
 Lecturer.obj: Lecturer.cpp.obj
 
@@ -277,6 +331,33 @@ Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/Student.cpp.s
 .PHONY : Student.cpp.s
 
+Superstudent.obj: Superstudent.cpp.obj
+
+.PHONY : Superstudent.obj
+
+# target to build an object file
+Superstudent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.obj
+.PHONY : Superstudent.cpp.obj
+
+Superstudent.i: Superstudent.cpp.i
+
+.PHONY : Superstudent.i
+
+# target to preprocess a source file
+Superstudent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.i
+.PHONY : Superstudent.cpp.i
+
+Superstudent.s: Superstudent.cpp.s
+
+.PHONY : Superstudent.s
+
+# target to generate assembly for a file
+Superstudent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab_4.dir\build.make CMakeFiles/OOP_lab_4.dir/Superstudent.cpp.s
+.PHONY : Superstudent.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -313,9 +394,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_lab_4
+	@echo ... ComputerScienceStudent.obj
+	@echo ... ComputerScienceStudent.i
+	@echo ... ComputerScienceStudent.s
 	@echo ... Employee.obj
 	@echo ... Employee.i
 	@echo ... Employee.s
+	@echo ... HardworkingStudent.obj
+	@echo ... HardworkingStudent.i
+	@echo ... HardworkingStudent.s
 	@echo ... Lecturer.obj
 	@echo ... Lecturer.i
 	@echo ... Lecturer.s
@@ -328,6 +415,9 @@ help:
 	@echo ... Student.obj
 	@echo ... Student.i
 	@echo ... Student.s
+	@echo ... Superstudent.obj
+	@echo ... Superstudent.i
+	@echo ... Superstudent.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

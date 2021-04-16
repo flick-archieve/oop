@@ -80,10 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/ComputerScienceStudent.cpp">
+			<Option target="OOP_lab_4"/>
+		</Unit>
+		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/ComputerScienceStudent.h">
+			<Option target="OOP_lab_4"/>
+		</Unit>
 		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/Employee.cpp">
 			<Option target="OOP_lab_4"/>
 		</Unit>
 		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/Employee.h">
+			<Option target="OOP_lab_4"/>
+		</Unit>
+		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/HardworkingStudent.cpp">
+			<Option target="OOP_lab_4"/>
+		</Unit>
+		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/HardworkingStudent.h">
 			<Option target="OOP_lab_4"/>
 		</Unit>
 		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/Lecturer.cpp">
@@ -108,6 +120,12 @@
 			<Option target="OOP_lab_4"/>
 		</Unit>
 		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/Student.h">
+			<Option target="OOP_lab_4"/>
+		</Unit>
+		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/Superstudent.cpp">
+			<Option target="OOP_lab_4"/>
+		</Unit>
+		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/Superstudent.h">
 			<Option target="OOP_lab_4"/>
 		</Unit>
 		<Unit filename="C:/Users/olehh/Desktop/University/labs/OOP/OOP_lab_4/main.cpp">

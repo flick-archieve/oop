@@ -7,22 +7,33 @@
 
 
 #include "Person.h"
+#include "list"
 
-class Student: public Person {
-void introduce() override;
+using namespace std;
+
+class Student : public virtual Person {
 
 public:
-    Student(const std::string &name, const std::string &surname, int age, int yearOfEducation,
-            const std::string &university, const std::string &faculty, const std::string &speciality);
-
     Student();
 
+    Student(Student *);
 
-private:
-    int yearOfEducation;
-    std::string university;
-    std::string faculty;
-    std::string speciality;
+
+    Student(Person *person, const list<string> &assignments);
+
+    void addAssignment(string assignment);
+
+    void doTask();
+
+    virtual ~Student();
+
+protected:
+
+    void introduce() override;
+
+    list<string> assignments;
+
+
 };
 
 
